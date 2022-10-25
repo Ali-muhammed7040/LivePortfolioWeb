@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="./images/portfolio3.png">
+    <!-- CSS only -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="nav">
+        <div class="nav__logo">
+            <img src="./images/portfolio3.png" alt="">
+            <!-- <h1>My Portfolio</h1> -->
+        </div>
+        <div class="nav__name">
+            <img src="./images/Ali.jpg" alt="">
+        </div>
+        <div class="nav__ul-items">
+            <ul>
+                <li data-aos="slide-up"><a style="font-size: 1.7rem;font-weight:bold;
+                text-decoration:none;color:white;text-align:center;" href="./resume/My Cv  Angular.docx"><img
+                            src="./images/icons8-resume-64.png" alt=""></a></li>
+                <li data-aos="slide-down"><a href="https://www.linkedin.com/in/ali-muhammed-054aa720b/"><img
+                            src="./images/icons8-linkedin-48.png" alt=""></a></li>
+                <li data-aos="slide-up"><a href=" https://wa.me/923090927040"><img
+                            src="./images/icons8-whatsapp-6000(@2x).png" alt=""></a></li>
+                <!-- <li data-aos="slide-down" id="changeColor"><img src="./images/icons8-moon-symbol-64 (1).png" alt=""> -->
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <section class="top-section">
+        <video class="top-section__bg-video" autoplay muted loop>
+            <source src="./videos/video4.mp4" type="video/mp4">
+
+        </video>
+        <div class="video-text">
+            <p class="animated-fill" data-aos="slide-left">
+                Hello
+                <span data-aos="slide-right">
+                    My Name IS ALi
+                </span>
+                &mdash; I am a software engineer &mdash;
+            </p>
+        </div>
+        <div class="main-btns">
+            <button class="About-btn"> <a href="#about-me" class="btn-1">About me </a></button>
+            <button class="cv-btn"> <a href="./resume/My Cv  Angular.docx" class="btn-2">Download CV </a></button>
+        </div>
+    </section>
+    <section class="about-me" data-aos="slide-down">
+        <div>
+            <img src="./images/icons8-account-50.png" alt="" data-aos="slide-left">
+            <span>About me</span>
+        </div>
+        <div class="about-me-icon">
+
+            <div class="about-me-wrap" data-aos="slide-right">
+                <!-- giga cousrse about me
+             -->
+                <div class="img">
+                    <img src="./images/profile.jfif" alt="">
+                    <figcaption class="caption">Ali Muhammed</figcaption>
+                </div>
+                <div class="about-me-text">
+                    <h3>What i do?</h3>
+                    <p>I am Ali Muhammed.I am Frontend Developer.Are you looking for the guy to design
+                        professional websites for you.
+                        Build responsive animated websites and web application? I am your guy :).Checkout the tools I
+                        use below.
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis fugit alias, beatae porro earum
+                        quae vitae veritatis minima aliquid magni!. Lorem ipsum dolor, sit amet consectetur adipisicing
+                        elit. Beatae quia non cumque? Blanditiis, iste amet quasi magnam eius nisi sunt.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="about-me-stack" data-aos="slide-left">
+            <img src="./images/icons8-monitor-50.png" alt="">
+            <span>Stacks</span>
+        </div>
+        <div>
+            <!-- <canvas id="myChart" class="chart" style="width:800%;max-width:600px;" ></canvas> -->
+            <div data-aos="slide-right" id="myChart" style="width:100%; max-width:600px; height:500px;"></div>
+        </div>
+    </section>
+
+
+
+    </div>
+    <section class="projects">
+        <div class="wrapper">
+            <div class="wrapper-content">
+                <div class="project-logo" data-aos="flip-right">
+                    <img class="wrapper-img" data-aos="slide-left" src="./images/icons8-git-48.png" alt="">
+                    <h1 class="title-1" data-aos="slide-right">projects</h1>
+                    <div class="displaycard-list">
+                        <div class="display-card card-design1" data-aos="slide-left">
+                            <div class="card-description">
+                                <div class="description-layers">
+                                    <div class="always-visible">
+                                        <h3>Nike Clone</h3>
+                                        <small>I Clone nike website. I only use Html and Css.</small>
+                                    </div>
+                                    <div class="hover-visible">
+                                        <div class="button button-white"><a
+                                                href="https://ali-muhammed7040.github.io/LiveNike/">Click to view</a>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="display-card card-design2" data-aos="slide-right">
+                            <div class="card-description">
+                                <div class="description-layers">
+                                    <div class="always-visible">
+                                        <h3>Kfc</h3>
+                                        <small>I clone Kfc website.</small>
+                                    </div>
+                                    <div class="hover-visible">
+                                        <div class="button button-white"><a href="https://ali-muhammed7040.github.io/KFCLive/">Click to view</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="display-card card-design3" data-aos="slide-right">
+                            <div class="card-description">
+                                <div class="description-layers">
+                                    <div class="always-visible">
+                                        <h3>Movies App</h3>
+                                        <small>I created movie App using TMDB API.</small>
+                                    </div>
+                                    <div class="hover-visible">
+                                        <div class="button button-white"><a href="https://ali-muhammed7040.github.io/MoviePediaLive/">Click to view</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="display-card card-design4" data-aos="slide-right">
+                            <div class="card-description">
+                                <div class="description-layers">
+                                    <div class="always-visible">
+                                        <h3>Music Player</h3>
+                                        <small>Music Player using Api.</small>
+                                    </div>
+                                    <div class="hover-visible">
+                                        <div class="button button-white"><a href="#">Click to view</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="content-foot">
+            <div class="container">
+                <div class="foot-text">
+                    <p>Personal <span>Portfolio website</span> - designed by <span>Ali</span></p>
+                    <div class="pay">
+                        <img src="./images/portfolio2.png" alt="" />
+                        <div>
+                            <a style="font-size: 1.7rem;font-weight:bold;
+                    text-decoration:none;color:white;text-align:center;" href="./resume/My Cv  Angular.docx"><img
+                                    class="black" src="./images/icons8-resume-64.png" alt=""></a>
+                            <a href="https://www.linkedin.com/in/ali-muhammed-054aa720b/"><img class="black"
+                                    src="./images/icons8-linkedin-48.png" alt=""></a>
+                            <a href=" https://wa.me/923090927040"><img class="black"
+                                    src="./images/icons8-whatsapp-6000(@2x).png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </footer>
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>
